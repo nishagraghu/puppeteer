@@ -19,7 +19,7 @@ import { Page } from './Page';
 import { Worker as PuppeteerWorker } from './Worker';
 import { CDPSession } from './Connection';
 import { Browser, BrowserContext } from './Browser';
-import type { Viewport } from './PuppeteerViewport';
+import { Viewport } from './PuppeteerViewport';
 import Protocol from './protocol';
 
 export class Target {
