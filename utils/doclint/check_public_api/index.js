@@ -647,6 +647,48 @@ function compareDocumentations(actual, expected) {
           expectedName: 'VisionDeficiency',
         },
       ],
+      [
+        'Method EventEmitter.emit() event',
+        {
+          actualName: 'string|symbol',
+          expectedName: 'Object',
+        },
+      ],
+      [
+        'Method EventEmitter.listenerCount() event',
+        {
+          actualName: 'string|symbol',
+          expectedName: 'Object',
+        },
+      ],
+      [
+        'Method EventEmitter.off() event',
+        {
+          actualName: 'string|symbol',
+          expectedName: 'Object',
+        },
+      ],
+      [
+        'Method EventEmitter.on() event',
+        {
+          actualName: 'string|symbol',
+          expectedName: 'Object',
+        },
+      ],
+      [
+        'Method EventEmitter.once() event',
+        {
+          actualName: 'string|symbol',
+          expectedName: 'Object',
+        },
+      ],
+      [
+        'Method EventEmitter.removeListener() event',
+        {
+          actualName: 'string|symbol',
+          expectedName: 'Object',
+        },
+      ],
     ]);
 
     const expectedForSource = expectedNamingMismatches.get(source);

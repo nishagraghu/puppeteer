@@ -55,7 +55,7 @@ export class EventEmitter implements CommonEventEmitter {
     this.on(event, onceHandler);
   }
 
-  listenerCount(event: string): number {
+  listenerCount(event: EventType): number {
     return this.listenerCounts.get(event) || 0;
   }
 }
