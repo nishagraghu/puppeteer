@@ -1,9 +1,4 @@
-import mitt from 'mitt';
-import type { Emitter } from 'mitt';
-
-type EventType = string | symbol;
-
-type Handler = (eventData?: any) => void;
+import mitt, { Emitter, EventType, Handler } from 'mitt';
 
 export interface CommonEventEmitter {
   on(event: EventType, handler: Handler): void;
