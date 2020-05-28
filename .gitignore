@@ -16,3 +16,4 @@ yarn.lock
 /index.d.ts
 /lib
 test/coverage.json
+temp/
